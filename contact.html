@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Mmesoma</title>
+        <meta name="description" content="A personal Website of Mmesoma, An online Resume of the life, time and works of Mmesoma Nnaoma", "about Mmesoma", "contact Mmesoma">
+        <meta name="author" content="Mmesoma Nnaoma">
+        <meta name="keywords" content="Mmesoma, Nnaoma, Mmesoma Nnaoma, Girl in coding, girls in tech">
+        <meta name="revised" content="Mmesoma Nnaoma, 28/11/2017">
+        <meta http-equiv="refresh" content="43200">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body class="about">
+        <div class="navgeneral">
+            <nav class="navgeneral">
+                    <ul class="nav-li">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+            </nav>
+        </div>
+        <a href="contact.html"><div class="contact-title">
+            CONTACT ME
+        </div></a>
+        <div class="bodycontainer">
+            <div class="contact-wrap">
+                <div class="address">
+                    <h2>Address</h2>
+                    <p>I can be found here during weekdays and work hours</p>
+                    <h3>Digital System Connectivity Services Limited</h3>
+                    <p>8 Bamako Street, Bamako Estate,</p>
+                    <p>Ojodu-Ikeja, Lagos</p>
+                    <iframe src="https.map.google.com/">
+                    </iframe>
+                </div>
+                <div class="contactform">
+                    <p class="form-intro">Please kindly take time and drop your reviews about my website here or leave me a personal message</p>
+                    <form action="http://mmesoma.me/contactsent.php" method="get">
+                        <fieldset>
+                            <legend>Your Contact</legend>
+                            <div><label>Your Name<br/><input id="entername" type="text" name="name" required/></label></div>
+                            <div class="emailphone">
+                                <div class="email">Your Email<br/><input type="email" name="email"/></div>
+                                <div class="phone">Phone #<br/><input type="text" name="phone"/></div>
+                            </div>
+                        </fieldset>
+                        <br/>
+                        <fieldset>
+                            <legend>Your Location/Device</legend>
+                            Where are you viewing this site from?<br/>
+                            <span class="location"><input type="radio" name="location" value="nigeria"/>Nigeria
+                            <input type="radio" name="location" value="notnigeria"/>Outside Nigeria</span> 
+                            <br/>
+                            <p>What device are you viewing this site on?
+                            <select>
+                                <option value="Computer">PC/Mac</option>
+                                <option value="smartphone">Smartphone</option>
+                                <option value="Tablet">Tablet</option>
+                            </select></p>
+                        </fieldset>
+                        <br/>
+                        <fieldset>
+                            <legend>Your Review</legend>
+                            Comment/Message
+                            <textarea id="comments" name="comments" placeholder="Type your reviews or message here"> 
+                            </textarea>
+                            <p>Are you likely to visit this website again?</p>
+                            <input type="radio" name="visit again" value="Yes" />Yes
+                            <input type="radio" name="visit again" value="No"/>No
+                        </fieldset>
+                        <input id="submit" type="submit" name="submit" value="SEND"/>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

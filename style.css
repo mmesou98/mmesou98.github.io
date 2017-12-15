@@ -1,0 +1,402 @@
+body{background-color: rgb(195, 225, 235);
+    font-family: 'Ubuntu','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+.header{
+   width:100%; height:220px; 
+}
+
+.profilepix{
+    float: left;
+    height: 200px;
+    width: 33%;
+    margin: 0px auto;
+   }
+.nameindex{
+    float: left;
+    height: 200px;
+    width: 33%;
+    text-align: center;
+    }
+#myname{
+    font-size: 50px;
+    margin: 0px;
+    color: #056175;
+}
+.nameindex p{
+    font-style: italic;
+}
+.navmenu{
+    float: right;
+    height: 200px;
+    width: 33.5%;
+    font-style: bold;
+    margin-left: 
+}
+
+nav li{
+    display: inline;
+    margin-right: 20px;
+    font-size: 18px;
+}
+a{
+text-decoration: none;}
+
+a:hover{
+    
+    color: #ffffff;
+    width: 150px;
+    height: 20px;
+   }
+a:active{color: red}
+a:link{color: #056175}
+a:visited{color: #000000}
+
+div li{
+    display: inline;
+}
+
+.sociallinks{
+    float: left;
+    margin: 25px;
+}
+
+li>img{
+    height: 30px;
+    width: 30px;
+    margin: 0px 5px;
+}
+    
+.personalStat{
+    width: 100%;
+    height:150px;
+    background-color: rgb(241, 241, 241);
+    border: 1px solid white;
+    border-radius: 0px 50px;
+    margin: 20px auto;
+
+   }
+
+
+p.psintro{
+    text-align: center;
+    margin: auto;
+    font-size: 20px;
+    padding: 20px;
+    color: #056175;
+    font-style: italic;
+   
+}
+
+.cyberintro{
+    margin: 20px auto;
+    font-style: italic;
+    color: #056175;
+}
+
+.cyberme{
+width: 100%;
+height: 500px;
+}
+.twitter{
+    width: 20%;
+    height:500px;
+    float:left;
+    }
+
+.favmusic{
+    width: 40%;
+    height: 500px;
+    float: left;
+}
+
+.fbook{
+    width: 40%;
+    height: 500px;
+    float: right;
+}
+
+
+/* End of home page style */
+
+.navgeneral{
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    text-align: right;
+    float: right;
+    margin-top: 0px;
+    } 
+
+.about{
+    background-color: white;
+    }
+
+.bodycontainer{
+    width: 100%;
+    overflow: auto;
+    background-color: rgb(241, 241, 241);
+    width: 98%;
+    margin: 50px 1%;
+    float: left;
+    }
+
+.nullleft{
+    float: left;
+   }
+
+
+.intro{
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    }
+
+.greet{
+    color: darkcyan;
+    text-align: center;
+    }
+blockquote{
+    text-align: center;
+}
+
+.nullright{
+    float: right;
+  }
+
+  .hr-quote{
+    margin: 0px auto;
+    width: 50%;
+  }
+
+hr{
+    border-color:darkcyan
+ }
+
+.imgwrap{
+    width: 100%;
+    overflow: auto;
+}
+
+.quote-img{
+    width: 200px;
+   margin: 0 auto;
+}
+.more{
+    margin: 0 auto;
+    text-align: center;
+}
+
+ h3.more{
+    color: darkcyan;
+    margin: 0 auto 0 auto;
+    font-style: italic;
+ }
+
+p.more{
+    text-align: justify;
+    margin: 5px auto;
+    padding: 20px 100px;
+
+}
+.storycontainer{
+    width: 90%;
+    background-color: white;
+    overflow: auto;
+    text-align: center;
+    margin: 10px auto;
+    border: 2px solid #ffffff;
+   
+    padding: 10px;
+}
+
+.story{
+    color: black;
+    text-align: justify;
+    width: 60%;
+    border: 2px solid darkcyan;
+    border-radius: 10px;
+    padding: 0px 15px;
+    float: left;
+    
+}
+
+.highlight{
+    float: right;
+    width: 30%;
+    border: 2px solid darkcyan;
+    border-radius: 10px;
+    text-align: left;
+    padding: 0px 2px;
+}
+ol{
+    font-size: 18px;
+    
+}
+dt{
+    text-indent: 20px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+footer{
+    height: 200px;
+    text-align: center;
+}
+/* End of About page */
+
+.portfolio-title, .about-title, .contact-title{
+    border: 2px solid #056175;
+    background-color: #056175;
+    color: white;
+    border-radius: 10px;
+    width: 20%;
+    margin: 20px;
+    font-size: 200%;
+    position: absolute;
+    text-align: center;
+    padding: 10px 0px;
+ }
+ .gallery-wrap1{
+     width: 80%;
+     background-color: white;
+     margin: 20px auto;
+     overflow: hidden;
+}
+
+ .gallerypics{
+     width: 27%;
+     height: 320px;
+     float: left;
+     margin: 20px;
+       
+}
+
+figure {
+    display: block;
+    width: 270px;
+    height: 280px;
+    background-color: rgb(241, 241, 241);
+    padding: 9px;
+    text-align: center;
+    margin: 20px;
+}
+
+figure img {
+    width: 260px;
+    height: 250px;
+    
+}
+
+figcaption {
+
+padding-left: 20px;
+
+}
+
+#gallery{
+    font-size: 24px;
+    text-align: center;
+    color: #056175;
+}
+
+/* End of Portfolio page */
+.contact-wrap{
+    width: 100%;
+    overflow: auto;
+}
+
+.address{
+    padding: 50px;
+    width: 45%;
+    float: left;
+}
+
+.contactform{
+    width: 43%;
+    float: right;
+    padding: 20px;
+    margin-top: 50px;
+
+
+}
+h2,h3{
+    color: #056175;
+}
+iframe{
+    width: 90%;
+    height: 500px;
+    background-color: white;
+}
+.form-intro{
+    font-size: 20px;
+    font-style: italic;
+}
+/* styling the form */
+#comments{
+    width: 96%;
+    height: 150px;
+}
+fieldset{
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: auto;
+}
+.emailphone{
+    width: 100%;
+    overflow: hidden;
+    margin: 5px auto;
+}
+.email{
+    width: 50%;
+    float: left;
+    margin: 0px auto;
+
+}
+.phone{
+    width: 50%;
+    float: right;
+    margin: 0px auto;
+}
+div>input{
+    width: 230px;
+}
+#entername{
+    width: 96%;
+}
+input, textarea{
+    border: 1px solid white;
+    border-radius: 5px;
+    height: 20px;
+    margin: 5px 10px;
+}
+
+form{
+    color: #056175;
+}
+select{
+    float: right;
+    width: 100px;
+    border: 2px solid white;
+}
+.location{
+    float: right;
+}
+label{
+    margin-left: 10px;
+}
+input#submit {
+    color: white;
+    text-shadow: 0px 1px 1px #ffffff;
+    border-bottom: 2px solid #b2b2b2;
+    background-color: #056175;
+    width: 100px;
+    height: 30px;
+    font-size: 150%;
+    float: right;
+}
+input#submit:hover {
+    color: #056175;
+    border: 1px solid #a4a4a4;
+    border-top: 2px solid #b2b2b2;
+    background-color: #eefcf9;
+}
